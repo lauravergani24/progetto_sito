@@ -1,0 +1,22 @@
+*{box-sizing: border-box}
+header{padding: 15px;}
+body{margin: 100px;}
+html{color:rgb(156, 153, 153)}
+h1{font-family: Arial; padding: 15px;}
+h2{color: black;}
+
+img-res{width: 100%; height: auto;}
+
+img{padding: 5px;}
+
+a{color:rgb(34, 34, 202);text-decoration: none; padding: 20px; font-size: 20px;}
+
+footer{
+    background:rgb(82, 105, 209);
+    padding:0%;
+}
+
+.menu{width: 20%;}
+input{size: 40px;}
+
+.container{width: 100%; display: flex; flex-wrap: wrap; text-align: center;}
