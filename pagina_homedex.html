@@ -5,29 +5,28 @@
     <meta name="viewport" content="width=device-width">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
 </head>
 <body>
-    
+
     <header>
-        <div class="container-nav">
-            <div class="site-title">
-                <img src="immagini/logo_bianco.png" alt="travel" class="logo" />
+        <div class="mainnav">
+            <div>
+                <img src="immagini/logo_bianco.png" alt="travel" class="mainnav__logo" />
             </div>
-            <nav >
-                <ul >
-                    <li class="mainbar_nav"><a href="pagina_homedex.html" class="current-page">Homepage</a></li>
-                    <li class="mainbar_nav"><a href="pagine/contatti.html">Contatti</a></li>
-                    <li ><a href="pagine/assistenza.html">Assistenza</a></li>
+            <nav>
+                <ul>
+                    <li><a href="pagina_homedex.html">Homepage</a></li>
+                    <li><a href="pagine/contatti.html">Contacts</a></li>
+                    <li><a href="pagine/assistenza.html">Assistance</a></li>
                 </ul>
             </nav>
-
         </div>
 
         <div class="firstnav">
-
             <nav>
                 <ul>
-                    <li><a href="pagine/film.html" class="current-page">Movies</a></li>
+                    <li><a href="pagine/alloggi.html" class="current-page">Accomodations</a></li>
                     <li><a href="pagine/mete.html">Destinations</a></li>
                     <li><a href="pagine/ristoranti.html">Restaurants</a></li>
                     <li><a href="pagine/attivita.html">Activities</a></li>
@@ -37,10 +36,7 @@
                     </li>
                 </ul>
             </nav>
-
         </div>
-
-
     </header>
 
     <div class="container">
@@ -48,50 +44,83 @@
             <article>
                 <img src="immagini/copertina.png" alt="travel" />
             </article>
-
-            <div class="titolomete">
-                <h2>Alcuni suggerimenti sulle migliori mete consigliate dai nostri utenti</h2>
+            <div>
+                <h3>Here are some suggestions about the best destination recommended by our users</h3>
             </div>
-
-            <div class="columns">
-                <div class="col">
-
-                    <img src="immagini/meta1.jpeg" alt="travel" class="col-img" />
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-
+            <div class="container__cols">
+                <div class="container__cols__col1">
+                    <div>
+                        <img src="immagini/meta1.jpeg" alt="travel" class="container__cols__col1--img" />
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                    </div>
                 </div>
-                <div class="col">
 
-                    <img src="immagini/meta2.jpeg" alt="travel" class="col-img" />
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                <div class="container__cols__col1">
+                    <div>
+                        <img src="immagini/meta2.jpeg" alt="travel" class="container__cols__col1--img" />
+                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
 
-
+                    </div>
                 </div>
-                <div class="col">
 
-                    <img src="immagini/meta3.jpg" alt="travel" class="col-img" />
-                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
-
-                </div>
+                <div class="container__cols__col1">
+                    <div">
+                        <img src="immagini/meta3.jpg" alt="travel" class="container__cols__col1--img" />
+                        <p class="container__cols__col1--img--p">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
+                    </div>
             </div>
-
         </main>
     </div>
 
     <footer>
+        <hr>
+        <hr>
         <div class="container">
-            <div class="sub-container">
-                <h3>About</h3>
+            <div class="footer__row">
+
+                <div class="footer__col">
+                    <h3>About Us</h3>
+                    <p>We are a travel agency that specializes in creating unforgettable experiences for our clients. Whether you're looking for a relaxing beach getaway or an action-packed adventure, we've got you covered.</p>
+                </div>
+
+                <div class="footer__col">
+                    <h3>Explore</h3>
+                    <ul>
+                        <li><a href="pagine/alloggi.html" class="current-page">Accomodations</a></li>
+                        <li><a href="pagine/mete.html">Destinations</a></li>
+                        <li><a href="pagine/ristoranti.html">Restaurants</a></li>
+                        <li><a href="pagine/attivita.html">Activities</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__col">
+                    <h3>Contact Us</h3>
+                    <p>Via Marco Antonio 36</p>
+                    <p>Monza, Italy 20900</p>
+                    <p>info@Travelfy.com</p>
+                    <p>
+                        <div class="footer__row__sociallist">
+                            <ul>
+                                <li><a href=""><i class="fab fa-viber"></i></a></li>
+                                <li><a href=""><i class="fab fa-google-plus-g"></i></a></li>
+                                <li><a href=""><i class="fab fa-facebook-square"></i></a></li>
+                                <li><a href=""><i class="fab fa-facebook-messenger"></i></a></li>
+                                <li><a href=""><i class="fab fa-twitter"></i></a></li>
+                                <li><a href=""><i class="fab fa-skype"></i></a></li>
+                            </ul>
+                        </div>
+                    </p>
+                </div>
+
             </div>
 
-            <div class="sub-container">
-                <h3>Correlated sites</h3>
-            </div>
-
-            <div class="sub-container">
-                <h3>Explore</h3>
+            <div class="footer__low">
+                <h6></h6><small>&copy; Copyright 2023, TravelFy</small></h6>
             </div>
         </div>
+
+
     </footer>
+
 </body>
 </html>
