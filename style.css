@@ -246,7 +246,7 @@ footer {
 # Media
 --------------------------------------------------------------*/
 
-@media (max-width:675px) {
+@media (max-width:675px){
 	.mainnav {
 		flex-direction: column;
 	}
@@ -266,6 +266,7 @@ footer {
 	.nav li {
 		margin: 1em 0;
 	}
+}
 
 /*--------------------------------------------------------------
 # END
